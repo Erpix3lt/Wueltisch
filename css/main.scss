@@ -32,6 +32,16 @@
     font-style: italic;
 }
 
+#result{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
 a{
     color: yellow;
     text-decoration: none;
