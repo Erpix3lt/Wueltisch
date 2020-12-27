@@ -1,2 +1,0 @@
-heroku buildpacks:clear
-web: node app.js
