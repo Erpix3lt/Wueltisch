@@ -2,8 +2,8 @@
   "name": "wueltisch",
   "version": "1.0.0",
   "description": "public image servie - maximilian schmalenbach",
-  "main": "js/app.js",
-  
+  "main": "app.js",
+
   "dependencies": {
     "express": "^4.17.1"
   },
