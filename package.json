@@ -1,0 +1,26 @@
+{
+  "name": "wueltisch",
+  "version": "1.0.0",
+  "description": "public image servie - maximilian schmalenbach",
+  "main": "js/app.js",
+  
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erpix3lt/Wueltisch.git"
+  },
+  "keywords": [
+    "photograhpy"
+  ],
+  "author": "Maximilian Schmalenbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erpix3lt/Wueltisch/issues"
+  },
+  "homepage": "https://github.com/Erpix3lt/Wueltisch#readme"
+}
