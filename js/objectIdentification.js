@@ -7,8 +7,16 @@
     cocoSsd.load().then(model => {
       // detect objects in the image.
       model.detect(img).then(predictions => {
-        console.log('Predictions: ', predictions);
-        let result = predictions[0].class;
-        document.getElementById('result').innerHTML = result;
+        document.getElementById('result').innerHTML = predictions.map(a => a.class) + getShortenedScore(predictions);
       });
     });
+
+    function getShortenedScore(predictions){
+      let scoreArray = predictions.map(b => b.score);
+      //(6.688689).toFixed(3);
+      let shortenedScoreArray = scoreArray.map(function(element){
+        return element.toFixed(4);
+      });
+
+      return shortenedScoreArray;
+    }
